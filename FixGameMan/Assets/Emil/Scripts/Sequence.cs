@@ -2,29 +2,33 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
-public class code : MonoBehaviour
+public class Sequence : MonoBehaviour
 {
-    public int[] sequence;
+    public int[] sequenceArr;
     public Text sequenceText;
     Slider slider;
-
+    public UnityEvent onComplete;
     private int currentIndex;
+    private GameObject player;
 
     void Start()
     {
         slider = GetComponent<Slider>();
         sequenceText.text = "";
         SetText();
-        slider.maxValue = sequence.Length;
+        slider.maxValue = sequenceArr.Length;
     }
 
     void Update()
     {
+        if (player == null) return;
+
         if (Input.GetMouseButtonDown(0))
         {
             Debug.Log("0 Input");
-            if(sequence[currentIndex] == 0)
+            if(sequenceArr[currentIndex] == 0)
             {
                 AddToSlider();
             }
@@ -37,7 +41,7 @@ public class code : MonoBehaviour
         if (Input.GetMouseButtonDown(1))
         {
             Debug.Log("1 Input");
-            if (sequence[currentIndex] == 1)
+            if (sequenceArr[currentIndex] == 1)
             {
                 AddToSlider();
             }
@@ -56,27 +60,39 @@ public class code : MonoBehaviour
 
     void AddToSlider()
     {
-        slider.value += slider.maxValue/sequence.Length;
+        slider.value += slider.maxValue/sequenceArr.Length;
         currentIndex++;
 
         if(slider.value == slider.maxValue)
         {
             Debug.Log("Sequence completed...");
+            onComplete.Invoke();
+            //
         }
 
     }
 
     void SetText()
     {
-        if (sequence.Length == 0)
+        if (sequenceArr.Length == 0)
         {
             Debug.Log("Array is empty...");
             return;
         }
 
-        foreach(int i in sequence)
+        foreach(int i in sequenceArr)
         {
             sequenceText.text += i.ToString() + " ";
         }
+    }
+
+    public void SetPlayer(GameObject player)
+    {
+        this.player = player;
+    }
+
+    public void ClearPlayer()
+    {
+        this.player = null;
     }
 }
