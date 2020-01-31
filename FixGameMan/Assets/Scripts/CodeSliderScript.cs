@@ -3,18 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class code : MonoBehaviour
+public class CodeSliderScript: MonoBehaviour
 {
     public int[] sequence;
     public Text sequenceText;
+    public Text inputText;
     Slider slider;
 
     private int currentIndex;
+
+    Event test;
 
     void Start()
     {
         slider = GetComponent<Slider>();
         sequenceText.text = "";
+        inputText.text = "";
         SetText();
         slider.maxValue = sequence.Length;
     }
@@ -27,6 +31,7 @@ public class code : MonoBehaviour
             if(sequence[currentIndex] == 0)
             {
                 AddToSlider();
+                inputText.text += "0";
             }
             else
             {
@@ -34,12 +39,13 @@ public class code : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("1 Input");
             if (sequence[currentIndex] == 1)
             {
                 AddToSlider();
+                inputText.text += "1";
             }
             else
             {
@@ -52,6 +58,7 @@ public class code : MonoBehaviour
     {
         slider.value = 0;
         currentIndex = 0;
+        inputText.text = "";
     }
 
     void AddToSlider()
