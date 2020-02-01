@@ -12,6 +12,7 @@ public class Sequence : MonoBehaviour
     public UnityEvent onComplete;
     private int currentIndex;
     private GameObject player;
+    private bool isFixed = false;
 
     void Start()
     {
@@ -23,7 +24,7 @@ public class Sequence : MonoBehaviour
 
     void Update()
     {
-        if (player == null) return;
+        if (player == null || isFixed) return;
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -67,7 +68,7 @@ public class Sequence : MonoBehaviour
         {
             Debug.Log("Sequence completed...");
             onComplete.Invoke();
-            //
+            isFixed = true;
         }
 
     }
