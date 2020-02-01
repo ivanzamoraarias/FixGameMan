@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Events;
 public class BrokenObject : MonoBehaviour
 {
     public GameObject canvasObj;
     public Sequence sequence;
+    public UnityEvent onTrigger;
 
     void Start()
     {
@@ -17,6 +18,7 @@ public class BrokenObject : MonoBehaviour
         Debug.Log("Collision enter");
         if(other.gameObject.tag == "Player")
         {
+            onTrigger.Invoke();
             canvasObj.SetActive(true);
             sequence.SetPlayer(other.gameObject);
         }

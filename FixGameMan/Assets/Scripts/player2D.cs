@@ -25,7 +25,10 @@ public class player2D : MonoBehaviour
 
     public bool isPlayerFixed = false;
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
     public AudioSource danceSong; // Added By Faraz
     // Start is called before the first frame update
     void Start()
@@ -56,16 +59,16 @@ public class player2D : MonoBehaviour
         }
 
       
-        float newMoveAcceleration = isPlayerFixed ? moveAcceleration : 1.0f;
+       // float newMoveAcceleration = isPlayerFixed ? moveAcceleration : 1.0f;
         moveVelocity = 0f;
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            moveVelocity = newMoveAcceleration;
+            moveVelocity = moveAcceleration;
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            moveVelocity = -newMoveAcceleration;
+            moveVelocity = -moveAcceleration;
         }
 
         if (!danceSong.isPlaying && moveVelocity != 0 && !isPlayerFixed)
@@ -79,18 +82,18 @@ public class player2D : MonoBehaviour
                 }
 
 
-        if (isPlayerFixed)
-        {
-            if (moveVelocity > 0 && !m_FacingRight)
-            {
-                Flip();
-            }
-            else if (moveVelocity < 0 && m_FacingRight)
-            {
-                Flip();
-            }
-        } else
-        {
+        //if (isPlayerFixed)
+        //{
+        //    if (moveVelocity > 0 && !m_FacingRight)
+        //    {
+        //        Flip();
+        //    }
+        //    else if (moveVelocity < 0 && m_FacingRight)
+        //    {
+        //        Flip();
+        //    }
+        //} else
+        //{
             if (moveVelocity > 0 && m_FacingRight)
             {
                 Flip();
@@ -99,13 +102,17 @@ public class player2D : MonoBehaviour
             {
                 Flip();
             }
-        }
+        //}
 
         ObjectRigidBody.velocity = new Vector2(moveVelocity, ObjectRigidBody.velocity.y);
 
         animatorObjet.SetFloat("Speed", Mathf.Abs(ObjectRigidBody.velocity.x));
     }
 
+    public void FixPlayerMovement()
+    {
+        this.GetComponent<SpriteRenderer>().flipX = true;
+    }
     void FixedUpdate()
     {
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
