@@ -34,8 +34,6 @@ public class player2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log ("Updated+++++++"+ Time.deltaTime);
-        //Vector2 resultingVector= new Vector2(0,0);
         if (grounded)
             doubleJumped = false;
 

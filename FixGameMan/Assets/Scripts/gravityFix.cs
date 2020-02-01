@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BuildingAnimation : MonoBehaviour
+public class gravityFix : MonoBehaviour
 {
-    public GameObject Building;
-
+    private GameObject[] myJellies;
     // Start is called before the first frame update
     void Start()
     {
-
+        myJellies = GameObject.FindGameObjectsWithTag("car");
     }
 
     // Update is called once per frame
@@ -19,9 +18,9 @@ public class BuildingAnimation : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("ANIMATION BUILDING");
-        Animator animatorObjet = Building.GetComponent<Animator>();
-        animatorObjet.SetBool("isFixed", true);
-
+        foreach (GameObject car in myJellies)
+        {
+            car.transform.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+        }
     }
 }
