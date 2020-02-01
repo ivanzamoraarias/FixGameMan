@@ -18,8 +18,10 @@ public class player2D : MonoBehaviour
 
     private bool doubleJumped;
 
-    private Animator animatorObjet;
+   private Animator animatorObjet;
     private Renderer renderObject;
+
+    private bool m_FacingRight = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,12 +41,12 @@ public class player2D : MonoBehaviour
 
         animatorObjet.SetBool("Grounded", grounded);
 
-        if (Input.GetKeyDown(KeyCode.Space) && grounded)
+        if (Input.GetKeyDown(KeyCode.A) && grounded)
         {
             Jump();
 
         }
-        if (Input.GetKeyDown(KeyCode.Space) && !doubleJumped && !grounded)
+        if (Input.GetKeyDown(KeyCode.A) && !doubleJumped && !grounded)
         {
             Jump();
             doubleJumped = true;
@@ -56,6 +58,9 @@ public class player2D : MonoBehaviour
 
             //ObjectRigidBody.velocity=new Vector2 (moveAcceleration,ObjectRigidBody.velocity.y);
             moveVelocity = moveAcceleration;
+
+     
+            
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
@@ -63,6 +68,19 @@ public class player2D : MonoBehaviour
             moveVelocity = -moveAcceleration;
             //ObjectRigidBody.velocity=new Vector2 (-moveAcceleration,ObjectRigidBody.velocity.y);
         }
+
+        if (moveVelocity > 0 && !m_FacingRight)
+        {
+            // ... flip the player.
+            Flip();
+        }
+        // Otherwise if the input is moving the player left and the player is facing right...
+        else if (moveVelocity < 0 && m_FacingRight)
+        {
+            // ... flip the player.
+            Flip();
+        }
+
         //ObjectRigidBody.velocity += resultingVector;
         ObjectRigidBody.velocity = new Vector2(moveVelocity, ObjectRigidBody.velocity.y);
 
@@ -79,10 +97,24 @@ public class player2D : MonoBehaviour
     private void Jump()
     {
         ObjectRigidBody.velocity = new Vector2(ObjectRigidBody.velocity.x, jumpHeight);
+        //animatorObjet.SetFloat("Speed", Mathf.Abs(ObjectRigidBody.velocity.x));
     }
 
     public void setRenderization(bool v)
     {
         renderObject.enabled = v;
     }
+
+
+    private void Flip()
+    {
+        // Switch the way the player is labelled as facing.
+        m_FacingRight = !m_FacingRight;
+
+        // Multiply the player's x local scale by -1.
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
+    }
+
 }
