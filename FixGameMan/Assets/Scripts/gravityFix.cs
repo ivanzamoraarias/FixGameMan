@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using GGJ.Sound;
 
 public class gravityFix : MonoBehaviour
 {
@@ -22,5 +23,9 @@ public class gravityFix : MonoBehaviour
         {
             car.transform.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
         }
+
+        AudioManager.instance.Play("collect");
+
+        Destroy(gameObject);
     }
 }

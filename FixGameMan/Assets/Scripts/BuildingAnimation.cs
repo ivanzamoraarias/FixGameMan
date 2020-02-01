@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using GGJ.Sound;
 
 public class BuildingAnimation : MonoBehaviour
 {
@@ -22,12 +23,9 @@ public class BuildingAnimation : MonoBehaviour
         Debug.Log("ANIMATION BUILDING");
         Animator animatorObjet = Building.GetComponent<Animator>();
         animatorObjet.SetBool("isFixed", true);
+        AudioManager.instance.Play("collect");
 
-        foreach (GameObject building in Buildings)
-        {
-            Animator buildingAnimator = building.GetComponent<Animator>();
-            buildingAnimator.SetBool("isFixed", true);
-        }
+        Destroy(gameObject);
 
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using GGJ.Sound;
 
 public class ChangeSkyBox : MonoBehaviour
 {
@@ -21,7 +22,11 @@ public class ChangeSkyBox : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            AudioManager.instance.Play("collect");
+
             RenderSettings.skybox = newSky;
+
+            Destroy(gameObject);
         }
     }
 }
