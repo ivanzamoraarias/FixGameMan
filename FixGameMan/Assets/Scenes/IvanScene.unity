@@ -299,6 +299,7 @@ GameObject:
   - component: {fileID: 179959860}
   - component: {fileID: 179959861}
   - component: {fileID: 179959862}
+  - component: {fileID: 179959863}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -480,7 +481,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 179959854}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 0cc4649dbaf5c664f9781f59e80bf1ce, type: 2}
   m_IsTrigger: 0
@@ -489,6 +490,43 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.1}
   serializedVersion: 2
   m_Radius: 0.22
+--- !u!60 &179959863
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179959854}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.71, y: 0.67}
+    newSize: {x: 0.71, y: 0.67}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.055, y: 0.145}
+      - {x: -0.024999999, y: 0.145}
+      - {x: -0.074999996, y: 0.114999995}
+      - {x: -0.095, y: 0.015}
+      - {x: -0.095, y: -0.055}
+      - {x: -0.074999996, y: -0.125}
+      - {x: -0.074999996, y: -0.325}
+      - {x: -0.065, y: -0.33499998}
+      - {x: 0.114999995, y: -0.33499998}
+      - {x: 0.155, y: -0.035}
+      - {x: 0.155, y: 0.024999999}
+      - {x: 0.085, y: 0.125}
 --- !u!1001 &271747192
 PrefabInstance:
   m_ObjectHideFlags: 0
