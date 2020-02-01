@@ -21,8 +21,10 @@ public class player2D : MonoBehaviour
    private Animator animatorObjet;
     private Renderer renderObject;
 
-    private bool m_FacingRight = true;    
-    // Start is called before the first frame update
+    private bool m_FacingRight = true;
+
+    public bool isPlayerFixed = false;
+
     void Start()
     {
         ObjectRigidBody = GetComponent<Rigidbody2D>();
@@ -50,36 +52,40 @@ public class player2D : MonoBehaviour
             doubleJumped = true;
         }
 
+        moveAcceleration = isPlayerFixed ? moveAcceleration : 1.0f;
         moveVelocity = 0f;
         if (Input.GetKey(KeyCode.RightArrow))
         {
-
-            //ObjectRigidBody.velocity=new Vector2 (moveAcceleration,ObjectRigidBody.velocity.y);
-            moveVelocity = moveAcceleration;
-
-     
-            
+            moveVelocity = moveAcceleration;   
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             moveVelocity = -moveAcceleration;
-            //ObjectRigidBody.velocity=new Vector2 (-moveAcceleration,ObjectRigidBody.velocity.y);
         }
 
-        if (moveVelocity > 0 && !m_FacingRight)
+        if (isPlayerFixed)
         {
-            // ... flip the player.
-            Flip();
-        }
-        // Otherwise if the input is moving the player left and the player is facing right...
-        else if (moveVelocity < 0 && m_FacingRight)
+            if (moveVelocity > 0 && !m_FacingRight)
+            {
+                Flip();
+            }
+            else if (moveVelocity < 0 && m_FacingRight)
+            {
+                Flip();
+            }
+        } else
         {
-            // ... flip the player.
-            Flip();
+            if (moveVelocity > 0 && m_FacingRight)
+            {
+                Flip();
+            }
+            else if (moveVelocity < 0 && !m_FacingRight)
+            {
+                Flip();
+            }
         }
-
-        //ObjectRigidBody.velocity += resultingVector;
+        
         ObjectRigidBody.velocity = new Vector2(moveVelocity, ObjectRigidBody.velocity.y);
 
         animatorObjet.SetFloat("Speed", Mathf.Abs(ObjectRigidBody.velocity.x));
@@ -87,15 +93,12 @@ public class player2D : MonoBehaviour
 
     void FixedUpdate()
     {
-       // Debug.Log("Fixed Update");
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
-       // Debug.Log(grounded);
     }
 
     private void Jump()
     {
         ObjectRigidBody.velocity = new Vector2(ObjectRigidBody.velocity.x, jumpHeight);
-        //animatorObjet.SetFloat("Speed", Mathf.Abs(ObjectRigidBody.velocity.x));
     }
 
     public void setRenderization(bool v)
@@ -106,12 +109,11 @@ public class player2D : MonoBehaviour
 
     private void Flip()
     {
-        // Switch the way the player is labelled as facing.
         m_FacingRight = !m_FacingRight;
 
-        // Multiply the player's x local scale by -1.
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
+        
         transform.localScale = theScale;
     }
 
