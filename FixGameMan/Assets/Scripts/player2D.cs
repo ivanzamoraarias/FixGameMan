@@ -25,6 +25,10 @@ public class player2D : MonoBehaviour
 
     public bool isPlayerFixed = false;
 
+    private bool m_FacingRight = true;
+
+    public AudioSource danceSong; // Added By Faraz
+    // Start is called before the first frame update
     void Start()
     {
         ObjectRigidBody = GetComponent<Rigidbody2D>();
@@ -56,13 +60,24 @@ public class player2D : MonoBehaviour
         moveVelocity = 0f;
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            moveVelocity = moveAcceleration;   
+            moveVelocity = moveAcceleration;
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             moveVelocity = -moveAcceleration;
         }
+
+        if (!danceSong.isPlaying && moveVelocity != 0)
+                {
+                    danceSong.Play();
+                    Debug.Log("Asd");
+                }
+                else if(danceSong.isPlaying && moveVelocity == 0)
+                {
+                    danceSong.Stop();
+                }
+
 
         if (isPlayerFixed)
         {
@@ -85,7 +100,7 @@ public class player2D : MonoBehaviour
                 Flip();
             }
         }
-        
+
         ObjectRigidBody.velocity = new Vector2(moveVelocity, ObjectRigidBody.velocity.y);
 
         animatorObjet.SetFloat("Speed", Mathf.Abs(ObjectRigidBody.velocity.x));
@@ -113,7 +128,7 @@ public class player2D : MonoBehaviour
 
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
-        
+
         transform.localScale = theScale;
     }
 
