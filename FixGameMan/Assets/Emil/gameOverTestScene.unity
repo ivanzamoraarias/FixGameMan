@@ -511,6 +511,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8249537510191353775, guid: 4df209cfbd34aaa46802ab9a879d1eda,
+        type: 3}
+      propertyPath: timeToBeatLevel
+      value: -97
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4df209cfbd34aaa46802ab9a879d1eda, type: 3}
 --- !u!1001 &23145728206472316
@@ -520,6 +525,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 193007962}
     m_Modifications:
+    - target: {fileID: 158297978, guid: fa2ecf949f75ffe42b8588927b369ff9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23145726946033279, guid: fa2ecf949f75ffe42b8588927b369ff9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 23145727658951517, guid: fa2ecf949f75ffe42b8588927b369ff9,
         type: 3}
       propertyPath: m_Name
@@ -635,5 +649,79 @@ PrefabInstance:
       propertyPath: clickText
       value: 
       objectReference: {fileID: 158297980}
+    - target: {fileID: 23145728321842170, guid: fa2ecf949f75ffe42b8588927b369ff9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa2ecf949f75ffe42b8588927b369ff9, type: 3}
+--- !u!1001 &870249864721214842
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3814424561296935088, guid: 3cba862541c8b9141afa50c41aa57437,
+        type: 3}
+      propertyPath: m_Name
+      value: GameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688574108095404793, guid: 3cba862541c8b9141afa50c41aa57437,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688574108095404793, guid: 3cba862541c8b9141afa50c41aa57437,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.6753247
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688574108095404793, guid: 3cba862541c8b9141afa50c41aa57437,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688574108095404793, guid: 3cba862541c8b9141afa50c41aa57437,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688574108095404793, guid: 3cba862541c8b9141afa50c41aa57437,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688574108095404793, guid: 3cba862541c8b9141afa50c41aa57437,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688574108095404793, guid: 3cba862541c8b9141afa50c41aa57437,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688574108095404793, guid: 3cba862541c8b9141afa50c41aa57437,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688574108095404793, guid: 3cba862541c8b9141afa50c41aa57437,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688574108095404793, guid: 3cba862541c8b9141afa50c41aa57437,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688574108095404793, guid: 3cba862541c8b9141afa50c41aa57437,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3cba862541c8b9141afa50c41aa57437, type: 3}

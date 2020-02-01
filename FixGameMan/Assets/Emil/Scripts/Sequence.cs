@@ -86,6 +86,7 @@ public class Sequence : MonoBehaviour
             Debug.Log("Sequence completed...");
             onComplete.Invoke();
             isFixed = true;
+            GameEvents.OnAssetFixed();
         }
 
     }

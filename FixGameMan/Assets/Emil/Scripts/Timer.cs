@@ -13,6 +13,7 @@ public class Timer : MonoBehaviour
     
     void Start()
     {
+        GameEvents.WinTriggered += StopTimer; 
         ResetTimer();
         StartTimer();
     }

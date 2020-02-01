@@ -25,7 +25,10 @@ public class player2D : MonoBehaviour
 
     public bool isPlayerFixed = false;
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
     public AudioSource danceSong; // Added By Faraz
     // Start is called before the first frame update
     void Start()
