@@ -15,7 +15,7 @@ public class Timer : MonoBehaviour
     {
         GameEvents.WinTriggered += StopTimer; 
         ResetTimer();
-        StartTimer();
+       // StartTimer();
     }
 
     void Update()
@@ -26,7 +26,7 @@ public class Timer : MonoBehaviour
             StopTimer();
             GameEvents.OnLooseTriggered();
         }
-        secondsText.text = ((int)timer).ToString();
+        secondsText.text = "Timer: " + ((int)timer).ToString();
     }
 
     public void StartTimer()

@@ -3,10 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using GGJ.Sound;
 
+
+
+
+using UnityEngine.Events;
+
 public class fixPlayer : MonoBehaviour
 {
+    public UnityEvent onCollect;
 
-    // Start is called before the first frame update
     void Start()
     {
 
@@ -20,16 +25,17 @@ public class fixPlayer : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        other.GetComponent<player2D>().isPlayerFixed = true;
-        other.GetComponent<player2D>().Jump();
-        other.GetComponent<Animator>().SetBool("isFixed", true);
-        other.GetComponent<AudioSource>().Pause();
-        other.GetComponent<AudioSource>().Stop();
+       // other.GetComponent<player2D>().isPlayerFixed = true;
+        //other.GetComponent<player2D>().Jump();
+        //other.GetComponent<Animator>().SetBool("isFixed", true);
+        //other.GetComponent<AudioSource>().Pause();
+        //other.GetComponent<AudioSource>().Stop();
 
 
         AudioManager.instance.Play("collect");
 
         other.GetComponent<player2D>().FixPlayerMovement();
+        onCollect.Invoke();
         Destroy(gameObject);
     }
 }

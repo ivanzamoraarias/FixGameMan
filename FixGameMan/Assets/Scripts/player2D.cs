@@ -73,7 +73,7 @@ public class player2D : MonoBehaviour
                     danceSong.Play();
                     Debug.Log("Asd");
                 }
-                else if(danceSong.isPlaying && moveVelocity == 0)
+                else if(danceSong.isPlaying && moveVelocity == 0 && !isPlayerFixed)
                 {
                     danceSong.Stop();
                 }
@@ -109,6 +109,8 @@ public class player2D : MonoBehaviour
     public void FixPlayerMovement()
     {
         this.GetComponent<SpriteRenderer>().flipX = true;
+        danceSong.Stop();
+        isPlayerFixed = true;
     }
     void FixedUpdate()
     {

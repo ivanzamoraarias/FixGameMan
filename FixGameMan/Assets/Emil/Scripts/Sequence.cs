@@ -73,13 +73,15 @@ public class Sequence : MonoBehaviour
     {
         slider.value = 0;
         currentIndex = 0;
+        imageFill.fillAmount = 0;
+
     }
 
     void AddToSlider()
     {
         slider.value += slider.maxValue/(sequenceList.Count);
         currentIndex++;
-        imageFill.fillAmount = slider.value/3.0f;
+        imageFill.fillAmount = slider.value/sequenceLength;
 
         if(slider.value == slider.maxValue)
         {
