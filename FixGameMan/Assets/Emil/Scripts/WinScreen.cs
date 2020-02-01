@@ -21,7 +21,13 @@ public class WinScreen : MonoBehaviour
     void ShowWin()
     {
         text.gameObject.SetActive(true);
-        clickText.gameObject.SetActive(true);
         background.gameObject.SetActive(true);
+        StartCoroutine(ActivateSceneClick());
+    }
+
+    IEnumerator ActivateSceneClick()
+    {
+        yield return new WaitForSeconds(1f);
+        clickText.gameObject.SetActive(true);
     }
 }
