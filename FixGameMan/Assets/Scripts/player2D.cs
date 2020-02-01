@@ -21,7 +21,9 @@ public class player2D : MonoBehaviour
    private Animator animatorObjet;
     private Renderer renderObject;
 
-    private bool m_FacingRight = true;    
+    private bool m_FacingRight = true;
+
+    public AudioSource danceSong; // Added By Faraz
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +36,10 @@ public class player2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+       
+
+
         if (grounded)
             doubleJumped = false;
 
@@ -57,14 +63,25 @@ public class player2D : MonoBehaviour
             //ObjectRigidBody.velocity=new Vector2 (moveAcceleration,ObjectRigidBody.velocity.y);
             moveVelocity = moveAcceleration;
 
-     
-            
+           
         }
+        
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             moveVelocity = -moveAcceleration;
+           
             //ObjectRigidBody.velocity=new Vector2 (-moveAcceleration,ObjectRigidBody.velocity.y);
+        }
+
+        if (!danceSong.isPlaying && moveVelocity != 0)
+        {
+            danceSong.Play();
+            Debug.Log("Asd");
+        }
+        else if(danceSong.isPlaying && moveVelocity == 0)
+        {
+            danceSong.Stop();
         }
 
         if (moveVelocity > 0 && !m_FacingRight)
