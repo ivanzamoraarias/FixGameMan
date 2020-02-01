@@ -24,6 +24,7 @@ public class BuildingAnimation : MonoBehaviour
         Animator animatorObjet = Building.GetComponent<Animator>();
         animatorObjet.SetBool("isFixed", true);
         AudioManager.instance.Play("collect");
+        GameEvents.OnAssetFixed();
 
         Destroy(gameObject);
 

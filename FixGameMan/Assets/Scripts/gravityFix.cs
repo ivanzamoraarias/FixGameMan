@@ -26,6 +26,8 @@ public class gravityFix : MonoBehaviour
 
         AudioManager.instance.Play("collect");
 
+        GameEvents.OnAssetFixed();
+
         Destroy(gameObject);
     }
 }

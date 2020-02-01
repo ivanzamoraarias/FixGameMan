@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("HAHAHA");
         fixedAssets = 0;
         FindBrokenAssets();
         GameEvents.AssetFixed += AssetsFixedCounter;
@@ -16,8 +17,10 @@ public class GameManager : MonoBehaviour
 
     void FindBrokenAssets()
     {
+        GameObject[] items = GameObject.FindGameObjectsWithTag("item");
         BrokenObject[] arr = FindObjectsOfType<BrokenObject>();
-        brokenAssetsInScene = arr.Length;
+        brokenAssetsInScene = arr.Length + items.Length;
+        Debug.Log("HIH");
         Debug.Log(brokenAssetsInScene);
     }
 

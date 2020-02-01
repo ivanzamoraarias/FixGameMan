@@ -26,6 +26,8 @@ public class ChangeSkyBox : MonoBehaviour
 
             RenderSettings.skybox = newSky;
 
+            GameEvents.OnAssetFixed();
+
             Destroy(gameObject);
         }
     }
