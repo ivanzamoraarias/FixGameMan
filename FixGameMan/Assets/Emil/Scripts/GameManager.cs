@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     {
         BrokenObject[] arr = FindObjectsOfType<BrokenObject>();
         brokenAssetsInScene = arr.Length;
+        Debug.Log(brokenAssetsInScene);
     }
 
     void AssetsFixedCounter()
