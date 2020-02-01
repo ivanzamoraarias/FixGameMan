@@ -62,5 +62,11 @@ MonoBehaviour:
     volume: 0.6
     pitch: 1
     source: {fileID: 0}
+  - name: collect
+    clip: {fileID: 8300000, guid: 59853b4cec9a91d4fba6c69febea66ca, type: 3}
+    loop: 0
+    volume: 3
+    pitch: 1
+    source: {fileID: 0}
   unmuteOnFocus: 1
   isMuted: 0

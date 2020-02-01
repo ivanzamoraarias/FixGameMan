@@ -68,7 +68,7 @@ public class player2D : MonoBehaviour
             moveVelocity = -newMoveAcceleration;
         }
 
-        if (!danceSong.isPlaying && moveVelocity != 0)
+        if (!danceSong.isPlaying && moveVelocity != 0 && !isPlayerFixed)
                 {
                     danceSong.Play();
                     Debug.Log("Asd");
@@ -125,6 +125,8 @@ public class player2D : MonoBehaviour
     private void Flip()
     {
         m_FacingRight = !m_FacingRight;
+
+       // GetComponent<SpriteRenderer>().flipX = m_FacingRight;
 
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
