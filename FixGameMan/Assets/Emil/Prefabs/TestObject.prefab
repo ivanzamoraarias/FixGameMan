@@ -38,7 +38,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6737104730266932224}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -261,11 +261,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6737104731452042961}
     m_Modifications:
-    - target: {fileID: 1368950951109210221, guid: c0a06e3c38c65c441bd1a931fa0bb716,
-        type: 3}
-      propertyPath: m_Name
-      value: Slider
-      objectReference: {fileID: 0}
     - target: {fileID: 1368950951109210220, guid: c0a06e3c38c65c441bd1a931fa0bb716,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -386,6 +381,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.68428
       objectReference: {fileID: 0}
+    - target: {fileID: 1368950951109210221, guid: c0a06e3c38c65c441bd1a931fa0bb716,
+        type: 3}
+      propertyPath: m_Name
+      value: Slider
+      objectReference: {fileID: 0}
     - target: {fileID: 1368950951109210223, guid: c0a06e3c38c65c441bd1a931fa0bb716,
         type: 3}
       propertyPath: sequenceArr.Array.size
@@ -431,14 +431,14 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1368950952794456510, guid: c0a06e3c38c65c441bd1a931fa0bb716,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1368950952777199753, guid: c0a06e3c38c65c441bd1a931fa0bb716,
         type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1368950952794456510, guid: c0a06e3c38c65c441bd1a931fa0bb716,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
