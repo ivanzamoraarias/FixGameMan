@@ -25,7 +25,6 @@ public class player2D : MonoBehaviour
 
     public bool isPlayerFixed = false;
 
-    private bool m_FacingRight = true;
 
     public AudioSource danceSong; // Added By Faraz
     // Start is called before the first frame update
@@ -56,16 +55,17 @@ public class player2D : MonoBehaviour
             doubleJumped = true;
         }
 
-        moveAcceleration = isPlayerFixed ? moveAcceleration : 1.0f;
+      
+        float newMoveAcceleration = isPlayerFixed ? moveAcceleration : 1.0f;
         moveVelocity = 0f;
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            moveVelocity = moveAcceleration;
+            moveVelocity = newMoveAcceleration;
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            moveVelocity = -moveAcceleration;
+            moveVelocity = -newMoveAcceleration;
         }
 
         if (!danceSong.isPlaying && moveVelocity != 0)
@@ -111,7 +111,7 @@ public class player2D : MonoBehaviour
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
     }
 
-    private void Jump()
+    public void Jump()
     {
         ObjectRigidBody.velocity = new Vector2(ObjectRigidBody.velocity.x, jumpHeight);
     }
