@@ -7,6 +7,7 @@ using GGJ.Sound;
 
 public class Sequence : MonoBehaviour
 {
+    public SoundSwapper soundSwapper = null;
     public int sequenceLength;
     public Text sequenceText;
     Slider slider;
@@ -89,6 +90,11 @@ public class Sequence : MonoBehaviour
             onComplete.Invoke();
             isFixed = true;
             GameEvents.OnAssetFixed();
+
+            if(soundSwapper != null)
+            {
+                soundSwapper.FixSound();
+            }
         }
 
     }

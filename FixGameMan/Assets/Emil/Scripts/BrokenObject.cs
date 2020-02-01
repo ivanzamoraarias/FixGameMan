@@ -7,6 +7,7 @@ public class BrokenObject : MonoBehaviour
     public GameObject canvasObj;
     public Sequence sequence;
     public UnityEvent onTrigger;
+    public UnityEvent onExit;
 
     void Start()
     {
@@ -30,6 +31,7 @@ public class BrokenObject : MonoBehaviour
         {
             canvasObj.SetActive(false);
             sequence.ClearPlayer();
+            onExit.Invoke();
         }
     }
 }
