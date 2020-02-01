@@ -17,6 +17,8 @@ public class Sequence : MonoBehaviour
     private GameObject player;
     private bool isFixed = false;
 
+    public Image imageFill;
+
     void Start()
     {
         AddSequence();
@@ -44,7 +46,7 @@ public class Sequence : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("1 Input");
             if (sequenceList[currentIndex] == 1)
@@ -77,6 +79,7 @@ public class Sequence : MonoBehaviour
     {
         slider.value += slider.maxValue/(sequenceList.Count);
         currentIndex++;
+        imageFill.fillAmount = slider.value/3.0f;
 
         if(slider.value == slider.maxValue)
         {

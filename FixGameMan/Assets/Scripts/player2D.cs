@@ -87,9 +87,9 @@ public class player2D : MonoBehaviour
 
     void FixedUpdate()
     {
-        Debug.Log("Fixed Update");
+       // Debug.Log("Fixed Update");
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
-        Debug.Log(grounded);
+       // Debug.Log(grounded);
     }
 
     private void Jump()
