@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class player2D : MonoBehaviour
+public class player2D_Faraz : MonoBehaviour
 {
     public Rigidbody2D ObjectRigidBody;
 
@@ -25,10 +25,7 @@ public class player2D : MonoBehaviour
 
     public bool isPlayerFixed = false;
 
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
     public AudioSource danceSong; // Added By Faraz
     // Start is called before the first frame update
     void Start()
