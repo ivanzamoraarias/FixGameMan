@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using GGJ.Sound;
 
 public class Sequence : MonoBehaviour
 {
@@ -35,6 +36,7 @@ public class Sequence : MonoBehaviour
             if(sequenceList[currentIndex] == 0)
             {
                 AddToSlider();
+                AudioManager.instance.Play("hit12");
             }
             else
             {
@@ -48,6 +50,7 @@ public class Sequence : MonoBehaviour
             if (sequenceList[currentIndex] == 1)
             {
                 AddToSlider();
+                AudioManager.instance.Play("hit17");
             }
             else
             {

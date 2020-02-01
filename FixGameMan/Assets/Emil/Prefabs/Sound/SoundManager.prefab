@@ -43,6 +43,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36605e0d248fc7444b52e799b0423758, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - name: hit12
+    clip: {fileID: 8300000, guid: ff64fe1adc122a54a82b735c00912233, type: 3}
+    loop: 0
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: hit17
+    clip: {fileID: 8300000, guid: 415e581a79778cc4781a0efca64b5127, type: 3}
+    loop: 0
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: bgm1
+    clip: {fileID: 8300000, guid: 0b911b4ed4ce92f4a934d15e9934701d, type: 3}
+    loop: 0
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
   unmuteOnFocus: 1
   isMuted: 0
