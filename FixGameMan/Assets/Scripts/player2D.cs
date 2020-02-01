@@ -71,7 +71,7 @@ public class player2D : MonoBehaviour
         if (!danceSong.isPlaying && moveVelocity != 0 && !isPlayerFixed)
                 {
                     danceSong.Play();
-                    Debug.Log("Asd");
+//
                 }
                 else if(danceSong.isPlaying && moveVelocity == 0 && !isPlayerFixed)
                 {
