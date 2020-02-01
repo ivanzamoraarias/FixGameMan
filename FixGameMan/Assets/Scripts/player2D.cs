@@ -21,7 +21,7 @@ public class player2D : MonoBehaviour
    private Animator animatorObjet;
     private Renderer renderObject;
 
-    private bool m_FacingRight = true;
+    private bool m_FacingRight = true;    
     // Start is called before the first frame update
     void Start()
     {
@@ -41,12 +41,12 @@ public class player2D : MonoBehaviour
 
         animatorObjet.SetBool("Grounded", grounded);
 
-        if (Input.GetKeyDown(KeyCode.A) && grounded)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && grounded)
         {
             Jump();
 
         }
-        if (Input.GetKeyDown(KeyCode.A) && !doubleJumped && !grounded)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && !doubleJumped && !grounded)
         {
             Jump();
             doubleJumped = true;
