@@ -18,10 +18,10 @@ public class MaterialManager : MonoBehaviour
         this.transform.position = new Vector3(this.transform.position.x,this.transform.position.y,0f);
     }
 
-    public void OnMouseDown()
-    {
-        FixGlitchMaterial();
-    }
+    //public void OnMouseDown()
+    //{
+    //    FixGlitchMaterial();
+    //}
     // Update is called once per frame
     
 }
