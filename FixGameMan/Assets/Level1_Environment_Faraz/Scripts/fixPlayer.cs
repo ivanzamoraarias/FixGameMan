@@ -20,7 +20,9 @@ public class fixPlayer : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-
+        other.GetComponent<player2D>().isPlayerFixed = true;
+        other.GetComponent<player2D>().Jump();
+        other.GetComponent<Animator>().SetBool("isFixed", true);
         other.GetComponent<AudioSource>().Pause();
         other.GetComponent<AudioSource>().Stop();
 
