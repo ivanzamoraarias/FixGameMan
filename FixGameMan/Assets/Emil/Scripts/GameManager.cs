@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using GGJ.Sound;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,10 +10,10 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("HAHAHA");
         fixedAssets = 0;
         FindBrokenAssets();
         GameEvents.AssetFixed += AssetsFixedCounter;
+        AudioManager.instance.Play("bgm1");
     }
 
     void FindBrokenAssets()
@@ -20,8 +21,7 @@ public class GameManager : MonoBehaviour
         GameObject[] items = GameObject.FindGameObjectsWithTag("item");
         BrokenObject[] arr = FindObjectsOfType<BrokenObject>();
         brokenAssetsInScene = arr.Length + items.Length;
-        Debug.Log("HIH");
-        Debug.Log(brokenAssetsInScene);
+        Debug.Log(brokenAssetsInScene + " broken assets in scene...");
     }
 
     void AssetsFixedCounter()

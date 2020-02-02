@@ -25,8 +25,6 @@ namespace GGJ.Sound
                 s.source.pitch = s.pitch;
                 s.source.loop = s.loop;
             }
-            //todo: lazy bgm play
-            Play("bgm1");
         }
 
         public void MuteSound()
