@@ -5,12 +5,15 @@ using GGJ.Sound;
 
 public class BuildingAnimation : MonoBehaviour
 {
-    public GameObject Building;
+    public string type;
     private GameObject[] Buildings;
     // Start is called before the first frame update
     void Start()
     {
-        Buildings = GameObject.FindGameObjectsWithTag("building");
+        if(type == "building")
+            Buildings = GameObject.FindGameObjectsWithTag("building");
+        else if(type == "glitch")
+            Buildings = GameObject.FindGameObjectsWithTag("glitch");
     }
 
     // Update is called once per frame
@@ -26,10 +29,13 @@ public class BuildingAnimation : MonoBehaviour
         foreach (GameObject b in Buildings)
         {
             Animator animatorObjet = b.GetComponent<Animator>();
+            if(animatorObjet != null)
             animatorObjet.SetBool("isFixed", true);
         }
         AudioManager.instance.Play("collect");
         GameEvents.OnAssetFixed();
+
+        AudioManager.instance.Play("building");
 
         Destroy(gameObject);
 
