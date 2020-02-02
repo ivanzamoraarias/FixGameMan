@@ -44,14 +44,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: hit12
-    clip: {fileID: 8300000, guid: ff64fe1adc122a54a82b735c00912233, type: 3}
+  - name: DogBark
+    clip: {fileID: 8300000, guid: a5e9aefc227de014d88093792759470d, type: 3}
     loop: 0
     volume: 0.8
     pitch: 1
     source: {fileID: 0}
-  - name: hit17
-    clip: {fileID: 8300000, guid: 415e581a79778cc4781a0efca64b5127, type: 3}
+  - name: Man
+    clip: {fileID: 8300000, guid: 60218038d48865e479462261074ed3ec, type: 3}
     loop: 0
     volume: 0.8
     pitch: 1
@@ -59,14 +59,56 @@ MonoBehaviour:
   - name: bgm1
     clip: {fileID: 8300000, guid: 0b911b4ed4ce92f4a934d15e9934701d, type: 3}
     loop: 0
-    volume: 0.6
+    volume: 0
     pitch: 1
     source: {fileID: 0}
   - name: collect
     clip: {fileID: 8300000, guid: 59853b4cec9a91d4fba6c69febea66ca, type: 3}
     loop: 0
     volume: 3
-    pitch: 3
+    pitch: 1
     source: {fileID: 0}
-  unmuteOnFocus: 1
+  - name: Eeha
+    clip: {fileID: 8300000, guid: 4e47208ab6f20e0489e56d776cf36fbe, type: 3}
+    loop: 0
+    volume: 3
+    pitch: 1
+    source: {fileID: 0}
+  - name: Siren
+    clip: {fileID: 8300000, guid: adee8ba7cc993a34b979e6f1905c7a90, type: 3}
+    loop: 0
+    volume: 3
+    pitch: 1
+    source: {fileID: 0}
+  - name: Cat
+    clip: {fileID: 8300000, guid: 3c4a54eef82aa834cb5e1f6caf014ddd, type: 3}
+    loop: 0
+    volume: 3
+    pitch: 1
+    source: {fileID: 0}
+  - name: KidVoice
+    clip: {fileID: 8300000, guid: c4d0672e8773ad340a571f2c1947c277, type: 3}
+    loop: 0
+    volume: 3
+    pitch: 1
+    source: {fileID: 0}
+  - name: ThanksLady
+    clip: {fileID: 8300000, guid: 37d694aaa2196c94da7193659682182a, type: 3}
+    loop: 0
+    volume: 3
+    pitch: 1
+    source: {fileID: 0}
+  - name: Horn
+    clip: {fileID: 8300000, guid: 236f4b2122f5cb04dbc023c47d4f5bea, type: 3}
+    loop: 0
+    volume: 3
+    pitch: 1
+    source: {fileID: 0}
+  - name: Rooster
+    clip: {fileID: 8300000, guid: 856e934949a61b14597b5b90ff24ea1a, type: 3}
+    loop: 0
+    volume: 3
+    pitch: 1
+    source: {fileID: 0}
+  unmuteOnFocus: 0
   isMuted: 0

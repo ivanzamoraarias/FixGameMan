@@ -12,7 +12,7 @@ public class FlipSprite : MonoBehaviour
 
    public void FlipTheSprite()
     {
-        Debug.Log("asd");
+      //  Debug.Log("asd");
         this.GetComponent<SpriteRenderer>().flipX = !this.GetComponent<SpriteRenderer>().flipX;
     }
 }

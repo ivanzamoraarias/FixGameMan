@@ -1,0 +1,2 @@
+There something seems to be wrong with the audio files of the game
+Maybe I should look into problem and fix them

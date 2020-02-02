@@ -16,7 +16,7 @@ public class BrokenObject : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Collision enter");
+       // Debug.Log("Collision enter");
         if(other.gameObject.tag == "Player")
         {
             onTrigger.Invoke();

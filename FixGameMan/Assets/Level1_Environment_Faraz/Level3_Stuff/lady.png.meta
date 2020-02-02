@@ -1,0 +1,3703 @@
+fileFormatVersion: 2
+guid: 4381ec8c8e82f6d4aa886b956d8a95cd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6122192755412016032
+    second: lady_0
+  - first:
+      213: -2498784649839603315
+    second: lady_1
+  - first:
+      213: -3342418928707228993
+    second: lady_2
+  - first:
+      213: -6862151165014407494
+    second: lady_3
+  - first:
+      213: -4024185639210633144
+    second: lady_4
+  - first:
+      213: 8219773403309189182
+    second: lady_5
+  - first:
+      213: -3529228998058052808
+    second: lady_6
+  - first:
+      213: -4902245716356102016
+    second: lady_7
+  - first:
+      213: 5517597873273957628
+    second: lady_8
+  - first:
+      213: -3085233920169925534
+    second: lady_9
+  - first:
+      213: -8659710604354966581
+    second: lady_10
+  - first:
+      213: 4710880931771599361
+    second: lady_11
+  - first:
+      213: 8233827584762433863
+    second: lady_12
+  - first:
+      213: -598457727217307940
+    second: lady_13
+  - first:
+      213: -7971117387764785969
+    second: lady_14
+  - first:
+      213: 8704265450545121488
+    second: lady_15
+  - first:
+      213: -6928684720266428289
+    second: lady_16
+  - first:
+      213: 4481996283328874303
+    second: lady_17
+  - first:
+      213: -2913589993768351228
+    second: lady_18
+  - first:
+      213: 1707080988831150184
+    second: lady_19
+  - first:
+      213: 2104490215796396341
+    second: lady_20
+  - first:
+      213: -5804614505101119156
+    second: lady_21
+  - first:
+      213: -6103429951164329046
+    second: lady_22
+  - first:
+      213: -1285839176879430911
+    second: lady_23
+  - first:
+      213: -2887657021386466010
+    second: lady_24
+  - first:
+      213: -7952826517047796364
+    second: lady_25
+  - first:
+      213: 5207269666235902622
+    second: lady_26
+  - first:
+      213: -7099620555689312412
+    second: lady_27
+  - first:
+      213: 5750702010513246798
+    second: lady_28
+  - first:
+      213: -7070918840980999495
+    second: lady_29
+  - first:
+      213: -8236408834228519259
+    second: lady_30
+  - first:
+      213: 837002360011827129
+    second: lady_31
+  - first:
+      213: -3115859840379724622
+    second: lady_32
+  - first:
+      213: 431547590096636773
+    second: lady_33
+  - first:
+      213: -3595436952514804878
+    second: lady_34
+  - first:
+      213: -6490057814882251093
+    second: lady_35
+  - first:
+      213: 4850773684003329093
+    second: lady_36
+  - first:
+      213: 8683147597728893842
+    second: lady_37
+  - first:
+      213: 4308589662908418242
+    second: lady_38
+  - first:
+      213: -7301215155025544296
+    second: lady_39
+  - first:
+      213: 8964610175976750173
+    second: lady_40
+  - first:
+      213: -2704552645825044099
+    second: lady_41
+  - first:
+      213: 1572025737633111147
+    second: lady_42
+  - first:
+      213: 8395129076909711099
+    second: lady_43
+  - first:
+      213: -64879712332785057
+    second: lady_44
+  - first:
+      213: -1981260706933524459
+    second: lady_45
+  - first:
+      213: 1063736590170349934
+    second: lady_46
+  - first:
+      213: -8104574148720008873
+    second: lady_47
+  - first:
+      213: 701510924613144395
+    second: lady_48
+  - first:
+      213: 810909299572613373
+    second: lady_49
+  - first:
+      213: 6969448282428944332
+    second: lady_50
+  - first:
+      213: 3520194835317803427
+    second: lady_51
+  - first:
+      213: 982613589941625313
+    second: lady_52
+  - first:
+      213: 2950264689809451015
+    second: lady_53
+  - first:
+      213: -5914948052034883113
+    second: lady_54
+  - first:
+      213: -2557104885166581188
+    second: lady_55
+  - first:
+      213: -4550351322926428225
+    second: lady_56
+  - first:
+      213: -8811635979129903362
+    second: lady_57
+  - first:
+      213: 9035309229046925668
+    second: lady_58
+  - first:
+      213: -4523804534833982336
+    second: lady_59
+  - first:
+      213: -865901990807403678
+    second: lady_60
+  - first:
+      213: 3515772893933743852
+    second: lady_61
+  - first:
+      213: 7462598430778486353
+    second: lady_62
+  - first:
+      213: -6504533336720431399
+    second: lady_63
+  - first:
+      213: 5484654087695431212
+    second: lady_64
+  - first:
+      213: 910967869781990860
+    second: lady_65
+  - first:
+      213: 2198096244717560859
+    second: lady_66
+  - first:
+      213: -1718177412354482901
+    second: lady_67
+  - first:
+      213: 5003701522725126528
+    second: lady_68
+  - first:
+      213: 7205353504658490317
+    second: lady_69
+  - first:
+      213: 2447736895712864672
+    second: lady_70
+  - first:
+      213: -8328727154916037361
+    second: lady_71
+  - first:
+      213: 7389521708596554917
+    second: lady_72
+  - first:
+      213: -2957632560359789809
+    second: lady_73
+  - first:
+      213: 3010734813130994843
+    second: lady_74
+  - first:
+      213: 1338343229926882401
+    second: lady_75
+  - first:
+      213: -3555544734961241143
+    second: lady_76
+  - first:
+      213: -5108154101176816596
+    second: lady_77
+  - first:
+      213: 2977953669739931542
+    second: lady_78
+  - first:
+      213: -1588111362911853465
+    second: lady_79
+  - first:
+      213: 9167317867088531663
+    second: lady_80
+  - first:
+      213: -1625965751075789775
+    second: lady_81
+  - first:
+      213: 2088967530536985602
+    second: lady_82
+  - first:
+      213: -5795286156709764101
+    second: lady_83
+  - first:
+      213: 1995517414254046525
+    second: lady_84
+  - first:
+      213: 1026665295106378720
+    second: lady_85
+  - first:
+      213: 479834960859069499
+    second: lady_86
+  - first:
+      213: 4714830330202229095
+    second: lady_87
+  - first:
+      213: 2423333392758076497
+    second: lady_88
+  - first:
+      213: -3189524546801885894
+    second: lady_89
+  - first:
+      213: -4525503317344831568
+    second: lady_90
+  - first:
+      213: 2922642843519389392
+    second: lady_91
+  - first:
+      213: 7415541838941181817
+    second: lady_92
+  - first:
+      213: -3209136773616925560
+    second: lady_93
+  - first:
+      213: -4021625590163456123
+    second: lady_94
+  - first:
+      213: 5089924604876871841
+    second: lady_95
+  - first:
+      213: -1899501231323225877
+    second: lady_96
+  - first:
+      213: -3621880770922369694
+    second: lady_97
+  - first:
+      213: 7784542400593402680
+    second: lady_98
+  - first:
+      213: 9051595213411508422
+    second: lady_99
+  - first:
+      213: -5540949609694130401
+    second: lady_100
+  - first:
+      213: 5111404291940725946
+    second: lady_101
+  - first:
+      213: 8448809273787898962
+    second: lady_102
+  - first:
+      213: 46564652277422311
+    second: lady_103
+  - first:
+      213: 1981661976963969324
+    second: lady_104
+  - first:
+      213: 7803574622392455677
+    second: lady_105
+  - first:
+      213: 5952904369285687232
+    second: lady_106
+  - first:
+      213: -8424321321006087232
+    second: lady_107
+  - first:
+      213: 6335106058412408363
+    second: lady_108
+  - first:
+      213: 8008601156769536735
+    second: lady_109
+  - first:
+      213: 8820376068501168911
+    second: lady_110
+  - first:
+      213: 2084625115389637885
+    second: lady_111
+  - first:
+      213: 4117022422377927390
+    second: lady_112
+  - first:
+      213: -556958388141231480
+    second: lady_113
+  - first:
+      213: -1781760876819838925
+    second: lady_114
+  - first:
+      213: -8324387358911302391
+    second: lady_115
+  - first:
+      213: 2557629092288789029
+    second: lady_116
+  - first:
+      213: -8953206216907636525
+    second: lady_117
+  - first:
+      213: -7635652623419036207
+    second: lady_118
+  - first:
+      213: 735935934375425343
+    second: lady_119
+  - first:
+      213: -2944275652085721058
+    second: lady_120
+  - first:
+      213: -8408272945539758216
+    second: lady_121
+  - first:
+      213: 9030631293122725216
+    second: lady_122
+  - first:
+      213: 2649854976684543213
+    second: lady_123
+  - first:
+      213: 606804491022546472
+    second: lady_124
+  - first:
+      213: 2766119492846327915
+    second: lady_125
+  - first:
+      213: -4523796741356180697
+    second: lady_126
+  - first:
+      213: -7341990462803521918
+    second: lady_127
+  - first:
+      213: -8742978455842031806
+    second: lady_128
+  - first:
+      213: -4599257371591640933
+    second: lady_129
+  - first:
+      213: -4493146469910048930
+    second: lady_130
+  - first:
+      213: 5710477991730179347
+    second: lady_131
+  - first:
+      213: -5571619230652754796
+    second: lady_132
+  - first:
+      213: -5437324306636734792
+    second: lady_133
+  - first:
+      213: -6886551799985302090
+    second: lady_134
+  - first:
+      213: -4548399602951649915
+    second: lady_135
+  - first:
+      213: -197714842417661752
+    second: lady_136
+  - first:
+      213: -5860114139502694989
+    second: lady_137
+  - first:
+      213: 3583645626673986269
+    second: lady_138
+  - first:
+      213: 10820721033852734
+    second: lady_139
+  - first:
+      213: -5752445194403093897
+    second: lady_140
+  - first:
+      213: 1369271925604447660
+    second: lady_141
+  - first:
+      213: -5440787242898048411
+    second: lady_142
+  - first:
+      213: -1921661195725376589
+    second: lady_143
+  - first:
+      213: -4698741145176853731
+    second: lady_144
+  - first:
+      213: 344085267959598709
+    second: lady_145
+  - first:
+      213: 8631896262024574860
+    second: lady_146
+  - first:
+      213: -2195040508159896987
+    second: lady_147
+  - first:
+      213: 4290258013469191778
+    second: lady_148
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lady_0
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 2890
+        width: 355
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab9dc0dfd566f450800000000000000
+      internalID: 6122192755412016032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_1
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 2992
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d819c10a998825dd0800000000000000
+      internalID: -2498784649839603315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_2
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 2980
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba2dd771b75d91d0800000000000000
+      internalID: -3342418928707228993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_3
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 2967
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab688466fddb4c0a0800000000000000
+      internalID: -6862151165014407494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_4
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 2950
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8483f907b783728c0800000000000000
+      internalID: -4024185639210633144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_5
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2953
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38a27e2c50821270800000000000000
+      internalID: 8219773403309189182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_6
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 2931
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833fdb7cce8a50fc0800000000000000
+      internalID: -3529228998058052808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_7
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 2922
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0880ae28e79b7fbb0800000000000000
+      internalID: -4902245716356102016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_8
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 2907
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfce1f14802729c40800000000000000
+      internalID: 5517597873273957628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_9
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 2908
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264294b881c0f25d0800000000000000
+      internalID: -3085233920169925534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_10
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 2895
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb2db1261782d780800000000000000
+      internalID: -8659710604354966581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_11
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 2868
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a48658f39606140800000000000000
+      internalID: 4710880931771599361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_12
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 2855
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741d39b409e644270800000000000000
+      internalID: 8233827584762433863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2841
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdeef1c2ed9d1b7f0800000000000000
+      internalID: -598457727217307940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_14
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 2809
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc1757f7f6e06190800000000000000
+      internalID: -7971117387764785969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_15
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 2780
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d882726f43cbc870800000000000000
+      internalID: 8704265450545121488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_16
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 2737
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70c7d7e4fd58df90800000000000000
+      internalID: -6928684720266428289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_17
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2624
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3740708fdf333e30800000000000000
+      internalID: 4481996283328874303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_18
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 2621
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a0e486659d097d0800000000000000
+      internalID: -2913589993768351228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_19
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 2589
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8607a166d15c0b710800000000000000
+      internalID: 1707080988831150184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_20
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2541
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53154d183b6a43d10800000000000000
+      internalID: 2104490215796396341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_21
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 2525
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c413e5d9cddd17fa0800000000000000
+      internalID: -5804614505101119156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_22
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 2471
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3de59fbc24c4ba0800000000000000
+      internalID: -6103429951164329046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_23
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2434
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10322dfc418c72ee0800000000000000
+      internalID: -1285839176879430911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_24
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 2424
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dd81f0d3bfce7d0800000000000000
+      internalID: -2887657021386466010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_25
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 2328
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d1f0b2b62e1a190800000000000000
+      internalID: -7952826517047796364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_26
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1846
+        width: 143
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a68a11c20f34840800000000000000
+      internalID: 5207269666235902622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_27
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1861
+        width: 152
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fb31258b4197d90800000000000000
+      internalID: -7099620555689312412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_28
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1858
+        width: 154
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a44c192099ecf40800000000000000
+      internalID: 5750702010513246798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_29
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1848
+        width: 150
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2f5b707cc0fdd90800000000000000
+      internalID: -7070918840980999495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_30
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1852
+        width: 145
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae7beabdc562bd80800000000000000
+      internalID: -8236408834228519259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_31
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 1849
+        width: 157
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b72ba83631ad9b00800000000000000
+      internalID: 837002360011827129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_32
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1838
+        width: 142
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcd244dbfd32c4d0800000000000000
+      internalID: -3115859840379724622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_33
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 2286
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bc26b2f3a2df500800000000000000
+      internalID: 431547590096636773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_34
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 2252
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273ca0124217a1ec0800000000000000
+      internalID: -3595436952514804878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_35
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 2221
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae023c9dceaee5a0800000000000000
+      internalID: -6490057814882251093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_36
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2134
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544d4d017f8615340800000000000000
+      internalID: 4850773684003329093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2043
+        width: 55
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bcaee1cbcb08870800000000000000
+      internalID: 8683147597728893842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_38
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 2043
+        width: 187
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c88394787f2bcb30800000000000000
+      internalID: 4308589662908418242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_39
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1993
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bf000008fdcaa90800000000000000
+      internalID: -7301215155025544296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_40
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1971
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c32f06571b86c70800000000000000
+      internalID: 8964610175976750173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_41
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1877
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71614da2bf777ad0800000000000000
+      internalID: -2704552645825044099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_42
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1854
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c94655415f0d510800000000000000
+      internalID: 1572025737633111147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_43
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1848
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe91c88a6d718470800000000000000
+      internalID: 8395129076909711099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_44
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 1821
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a5641de30891ff0800000000000000
+      internalID: -64879712332785057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_45
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1815
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518b9cb52e52184e0800000000000000
+      internalID: -1981260706933524459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_46
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1815
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6160b7fac623ce00800000000000000
+      internalID: 1063736590170349934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_47
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1800
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751eab960c4c68f80800000000000000
+      internalID: -8104574148720008873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_48
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1297
+        width: 152
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f4f9b18744cb900800000000000000
+      internalID: 701510924613144395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_49
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1297
+        width: 155
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0261a26bde04b00800000000000000
+      internalID: 810909299572613373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_50
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1284
+        width: 154
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf22a2894478b060800000000000000
+      internalID: 6969448282428944332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_51
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1291
+        width: 145
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9484b4d8e3ad030800000000000000
+      internalID: 3520194835317803427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_52
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1738
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e121fb9ad1f2ad00800000000000000
+      internalID: 982613589941625313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_53
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1280
+        width: 145
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708687daa1271f820800000000000000
+      internalID: 2950264689809451015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_54
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1285
+        width: 154
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1729dd512e9eda0800000000000000
+      internalID: -5914948052034883113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_55
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1280
+        width: 144
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ada32b7a6538cd0800000000000000
+      internalID: -2557104885166581188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_56
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1719
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfcdb1a497e9d0c0800000000000000
+      internalID: -4550351322926428225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_57
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1674
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef629e553c7c6b580800000000000000
+      internalID: -8811635979129903362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_58
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1651
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46986296fddd36d70800000000000000
+      internalID: 9035309229046925668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_59
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 1472
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0845be36eb73831c0800000000000000
+      internalID: -4523804534833982336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_60
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1454
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2630f932ab2bbf3f0800000000000000
+      internalID: -865901990807403678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_61
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1390
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee2ed5d1d88ac030800000000000000
+      internalID: 3515772893933743852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_62
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 1348
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e60f7fbb9709760800000000000000
+      internalID: 7462598430778486353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_63
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1253
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6a71b84614bb5a0800000000000000
+      internalID: -6504533336720431399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_64
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 1237
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26faf475d76d1c40800000000000000
+      internalID: 5484654087695431212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_65
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1224
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd5628737864ac00800000000000000
+      internalID: 910967869781990860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_66
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1218
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14a28873e4318e10800000000000000
+      internalID: 2198096244717560859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_67
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1203
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2dd28b2fbec728e0800000000000000
+      internalID: -1718177412354482901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_68
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1183
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081cc103608b07540800000000000000
+      internalID: 5003701522725126528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_69
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 670
+        width: 197
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3094e36de8ef360800000000000000
+      internalID: 7205353504658490317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_70
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 661
+        width: 154
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9259cecbb18f120800000000000000
+      internalID: 2447736895712864672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_71
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 664
+        width: 113
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d6414b7ca6a6c80800000000000000
+      internalID: -8328727154916037361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_72
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 669
+        width: 177
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac6fe4b7dadc8660800000000000000
+      internalID: 7389521708596554917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_73
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 667
+        width: 129
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b20a74bd064f6d0800000000000000
+      internalID: -2957632560359789809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_74
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 673
+        width: 107
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9433996c5748c920800000000000000
+      internalID: 3010734813130994843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_75
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 670
+        width: 102
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c3757a310c29210800000000000000
+      internalID: 1338343229926882401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_76
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1149
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3ff91d6ea28aec0800000000000000
+      internalID: -3555544734961241143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_77
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1124
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ca66db8e03c19b0800000000000000
+      internalID: -5108154101176816596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_78
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1111
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6976b62b511d35920800000000000000
+      internalID: 2977953669739931542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_79
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1073
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764a0ed2125e5f9e0800000000000000
+      internalID: -1588111362911853465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_80
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1062
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc057e2970bd83f70800000000000000
+      internalID: 9167317867088531663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_81
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1063
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1342d2e93c86f69e0800000000000000
+      internalID: -1625965751075789775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_82
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1044
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2046bf4b6e08dfc10800000000000000
+      internalID: 2088967530536985602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_83
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1038
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf36399f1f1039fa0800000000000000
+      internalID: -5795286156709764101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_84
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 1026
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3de7bbf38081bb10800000000000000
+      internalID: 1995517414254046525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_85
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 1028
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb890a75a27f3e00800000000000000
+      internalID: 1026665295106378720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_86
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1013
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c71d8ca57b8a600800000000000000
+      internalID: 479834960859069499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_87
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 947
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76901ff74317e6140800000000000000
+      internalID: 4714830330202229095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_88
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 932
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154ffaf91e861a120800000000000000
+      internalID: 2423333392758076497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_89
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 924
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d1c71d2588cb3d0800000000000000
+      internalID: -3189524546801885894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_90
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 912
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b73fc3c5be2231c0800000000000000
+      internalID: -4525503317344831568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_91
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 898
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de8f4d6e205f8820800000000000000
+      internalID: 2922642843519389392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_92
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 868
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977d227630c49e660800000000000000
+      internalID: 7415541838941181817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_93
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 839
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8848bec6b1bd673d0800000000000000
+      internalID: -3209136773616925560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_94
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 792
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fbfae45d05038c0800000000000000
+      internalID: -4021625590163456123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_95
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 763
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8d437e57b03a640800000000000000
+      internalID: 5089924604876871841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_96
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 743
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0ef80b1bd93a5e0800000000000000
+      internalID: -1899501231323225877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_97
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 729
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26daa5ed0ae7cbdc0800000000000000
+      internalID: -3621880770922369694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_98
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 726
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b165ea110480c60800000000000000
+      internalID: 7784542400593402680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_99
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 716
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0e402a3e9bd9d70800000000000000
+      internalID: 9051595213411508422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_100
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 720
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f87dbefa79a13b0800000000000000
+      internalID: -5540949609694130401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_101
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 664
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4b8844f1b5fe640800000000000000
+      internalID: 5111404291940725946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_102
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 657
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c57235543304570800000000000000
+      internalID: 8448809273787898962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_103
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 655
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8d516fd4e65a000800000000000000
+      internalID: 46564652277422311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_104
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 650
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21f5d99117408b10800000000000000
+      internalID: 1981661976963969324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_105
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 641
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df194f126cddb4c60800000000000000
+      internalID: 7803574622392455677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_106
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 621
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7e429ebf6fc9250800000000000000
+      internalID: 5952904369285687232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_107
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 625
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3ceab746cc61b80800000000000000
+      internalID: -8424321321006087232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_108
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 599
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2eb8123561dae750800000000000000
+      internalID: 6335106058412408363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_109
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 595
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdad7091254442f60800000000000000
+      internalID: 8008601156769536735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_110
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 578
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f036e5c4d45486a70800000000000000
+      internalID: 8820376068501168911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_111
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 558
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df438a46f731eec10800000000000000
+      internalID: 2084625115389637885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_112
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 540
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2972a841a922930800000000000000
+      internalID: 4117022422377927390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_113
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 522
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882fa200c494548f0800000000000000
+      internalID: -556958388141231480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_114
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 487
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33807763ce9e547e0800000000000000
+      internalID: -1781760876819838925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_115
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 468
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905f6533dc5d97c80800000000000000
+      internalID: -8324387358911302391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_116
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 468
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52af319cb168e7320800000000000000
+      internalID: 2557629092288789029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_117
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 467
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0c660c162dfb380800000000000000
+      internalID: -8953206216907636525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_118
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 455
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd24d8f466b80690800000000000000
+      internalID: -7635652623419036207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_119
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 457
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3574e945d1963a00800000000000000
+      internalID: 735935934375425343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_120
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 441
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e185994d4e4d327d0800000000000000
+      internalID: -2944275652085721058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_121
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 394
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87743921e40df4b80800000000000000
+      internalID: -8408272945539758216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_122
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 380
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0654b14905f335d70800000000000000
+      internalID: 9030631293122725216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_123
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 367
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec459fcf0d26c420800000000000000
+      internalID: 2649854976684543213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_124
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 369
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826b287387dcb6800800000000000000
+      internalID: 606804491022546472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_125
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 339
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b689361f50b336620800000000000000
+      internalID: 2766119492846327915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_126
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 317
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b2563f4de3831c0800000000000000
+      internalID: -4523796741356180697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_127
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 279
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e4a48d2920c1a90800000000000000
+      internalID: -7341990462803521918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_128
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 259
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24774acaa63baa680800000000000000
+      internalID: -8742978455842031806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_129
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 248
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98fea7d9c72c20c0800000000000000
+      internalID: -4599257371591640933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_130
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 230
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f0631671325a1c0800000000000000
+      internalID: -4493146469910048930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_131
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 181
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d63c26a71bf3f40800000000000000
+      internalID: 5710477991730179347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_132
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 146
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494153554d1ada2b0800000000000000
+      internalID: -5571619230652754796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_133
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 128
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bef15ee95eba84b0800000000000000
+      internalID: -5437324306636734792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_134
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 2180
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b59c8adf9d0e60a0800000000000000
+      internalID: -6886551799985302090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5850a89d8a6d0e0c0800000000000000
+      internalID: -4548399602951649915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_136
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 114
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c87fdaf563914df0800000000000000
+      internalID: -197714842417661752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_137
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 106
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bda2b30d31bcaea0800000000000000
+      internalID: -5860114139502694989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_138
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 101
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddaf8c2e5baabb130800000000000000
+      internalID: 3583645626673986269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_139
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 102
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37bf617361762000800000000000000
+      internalID: 10820721033852734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_140
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 81
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77263bdc2953b20b0800000000000000
+      internalID: -5752445194403093897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_141
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 82
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca57196cf81a00310800000000000000
+      internalID: 1369271925604447660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_142
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 78
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ab59044d07e74b0800000000000000
+      internalID: -5440787242898048411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_143
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 59
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3f22ae253e455e0800000000000000
+      internalID: -1921661195725376589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_144
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 53
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13b83ec2d7baceb0800000000000000
+      internalID: -4698741145176853731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_145
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 33
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e4d296abf66c400800000000000000
+      internalID: 344085267959598709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_146
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 21
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c873ff3aae7aac770800000000000000
+      internalID: 8631896262024574860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_147
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 0
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5625983a946a981e0800000000000000
+      internalID: -2195040508159896987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lady_148
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 0
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26eaa97beee0a8b30800000000000000
+      internalID: 4290258013469191778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

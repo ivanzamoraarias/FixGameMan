@@ -11,6 +11,8 @@ public class SoundSwapper : MonoBehaviour
     public string fixedSound;
     public int timeBetweenRepeat = 3;
 
+    public bool isLastSound;
+
     public void StartLoop()
     {
         InvokeRepeating("PlaySound", 0, timeBetweenRepeat);
@@ -38,6 +40,11 @@ public class SoundSwapper : MonoBehaviour
         AudioManager.instance.Stop(brokenSound);
         isFixed = true;
         CancelInvoke("PlaySound");
-        AudioManager.instance.Play(fixedSound);
+        //AudioManager.instance.Play(fixedSound);
+        if (isLastSound)
+            AudioManager.instance.Play(fixedSound);
+        else
+            StartLoop();
+
     }
 }

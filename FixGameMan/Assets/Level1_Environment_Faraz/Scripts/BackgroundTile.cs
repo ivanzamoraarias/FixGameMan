@@ -4,12 +4,23 @@ using UnityEngine;
 
 public class BackgroundTile : MonoBehaviour
 {
+
+    public bool isCreditScene;
+    public GameObject go;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        if(isCreditScene)
+        StartCoroutine("ActivateButton");
     }
 
+
+    public IEnumerator ActivateButton()
+    {
+        yield return new WaitForSeconds(2.0f);
+        go.SetActive(true);
+    }
     // Update is called once per frame
     void Update()
     {
@@ -18,6 +29,9 @@ public class BackgroundTile : MonoBehaviour
 
     public void OnMouseDown()
     {
-        Application.LoadLevel(1);
+        if (!isCreditScene)
+            Application.LoadLevel(1);
+        else if(isCreditScene && go.activeInHierarchy)
+            Application.LoadLevel(0);
     }
 }
