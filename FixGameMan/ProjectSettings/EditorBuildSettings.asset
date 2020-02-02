@@ -18,6 +18,12 @@ EditorBuildSettings:
     path: Assets/Level1_Environment_Faraz/Scenes/Gameplay_Level1_Completed.unity
     guid: 7c16d9da57efcdb4d9b36bf2a7fd31f4
   - enabled: 1
+    path: Assets/Scenes/IvanScene.unity
+    guid: 8741d620084417c44881fd859879749b
+  - enabled: 1
     path: Assets/Level1_Environment_Faraz/Scenes/Gameplay_Level3_SoundFix.unity
     guid: 42086e3f97036784283aca69843bcaa3
+  - enabled: 1
+    path: Assets/Level1_Environment_Faraz/Scenes/Credits.unity
+    guid: cb056d4ebbe086043998535747652cd3
   m_configObjects: {}

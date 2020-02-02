@@ -110,5 +110,11 @@ MonoBehaviour:
     volume: 3
     pitch: 1
     source: {fileID: 0}
+  - name: building
+    clip: {fileID: 8300000, guid: ed4e4a5117b89514ab98f5419893c4a9, type: 3}
+    loop: 0
+    volume: 3
+    pitch: 1
+    source: {fileID: 0}
   unmuteOnFocus: 0
   isMuted: 0

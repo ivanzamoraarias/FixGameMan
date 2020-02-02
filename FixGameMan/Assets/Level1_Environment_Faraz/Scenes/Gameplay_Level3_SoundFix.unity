@@ -9995,6 +9995,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SoundManager
       objectReference: {fileID: 0}
+    - target: {fileID: 1136369432366157168, guid: ef83bb7c02734f5429b41af81f1a6c0d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8095589982927790272, guid: ef83bb7c02734f5429b41af81f1a6c0d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18133,7 +18138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38997275efbbfe842932cc877b5f2a5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: MainMenu
+  sceneToLoad: Credits
 --- !u!114 &6438633281901815643
 MonoBehaviour:
   m_ObjectHideFlags: 0

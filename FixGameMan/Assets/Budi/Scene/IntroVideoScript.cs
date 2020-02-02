@@ -46,7 +46,7 @@ public class IntroVideoScript : MonoBehaviour
             if (timer < 0f) timer = 0f;
         }
 
-        skipText.color = new Color(skipText.color.r, skipText.color.g, skipText.color.b, timer <= 0.1f ? 0f : ((timer+1) / (timerMax+1)));
+        skipText.color = new Color(skipText.color.r, skipText.color.g, skipText.color.b, timer <= 0.1f ? 0.1f : ((timer+1) / (timerMax+1)));
     }
 
     void VideoDone(VideoPlayer vp)
