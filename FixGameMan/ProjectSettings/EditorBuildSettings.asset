@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Level1_Environment_Faraz/Scenes/MainMenu.unity
     guid: 5dbe5b3b647ebba418cc9221bff89740
   - enabled: 1
+    path: Assets/Budi/Scene/PreIntroLevel.unity
+    guid: 89ba87bc4a0c9a243a655bf8f2a64402
+  - enabled: 1
+    path: Assets/Budi/Scene/IntroVideo.unity
+    guid: 4f637834338db944b9eb5926f034ac97
+  - enabled: 1
     path: Assets/Level1_Environment_Faraz/Scenes/Gameplay_Level1_Completed.unity
     guid: 7c16d9da57efcdb4d9b36bf2a7fd31f4
   - enabled: 0
