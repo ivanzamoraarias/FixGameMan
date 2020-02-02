@@ -101,7 +101,7 @@ public class player2D : MonoBehaviour
             }
         //}
 
-        ObjectRigidBody.velocity = new Vector2(moveVelocity, ObjectRigidBody.velocity.y);
+        if(ObjectRigidBody.bodyType == RigidbodyType2D.Dynamic) ObjectRigidBody.velocity = new Vector2(moveVelocity, ObjectRigidBody.velocity.y);
 
         animatorObjet.SetFloat("Speed", Mathf.Abs(ObjectRigidBody.velocity.x));
     }
