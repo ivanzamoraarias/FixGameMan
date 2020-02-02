@@ -10,7 +10,7 @@ public class BuildingAnimation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        Buildings = GameObject.FindGameObjectsWithTag("building");
     }
 
     // Update is called once per frame
@@ -21,8 +21,13 @@ public class BuildingAnimation : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("ANIMATION BUILDING");
-        Animator animatorObjet = Building.GetComponent<Animator>();
-        animatorObjet.SetBool("isFixed", true);
+        
+
+        foreach (GameObject b in Buildings)
+        {
+            Animator animatorObjet = b.GetComponent<Animator>();
+            animatorObjet.SetBool("isFixed", true);
+        }
         AudioManager.instance.Play("collect");
         GameEvents.OnAssetFixed();
 
