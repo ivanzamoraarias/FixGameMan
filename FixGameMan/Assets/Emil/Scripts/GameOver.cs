@@ -30,4 +30,9 @@ public class GameOver : MonoBehaviour
         yield return new WaitForSeconds(1f);
         clickText.gameObject.SetActive(true);
     }
+
+    void OnDestroy()
+    {
+        GameEvents.LooseTriggered += ShowGameOver;
+    }
 }

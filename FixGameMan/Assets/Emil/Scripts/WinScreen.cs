@@ -30,4 +30,9 @@ public class WinScreen : MonoBehaviour
         yield return new WaitForSeconds(1f);
         clickText.gameObject.SetActive(true);
     }
+
+    void OnDestroy()
+    {
+        GameEvents.WinTriggered -= ShowWin;
+    }
 }

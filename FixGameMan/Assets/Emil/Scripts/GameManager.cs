@@ -33,4 +33,9 @@ public class GameManager : MonoBehaviour
             GameEvents.OnWinTriggered();
         }
     }
+
+    void OnDestroy()
+    {
+        GameEvents.AssetFixed -= AssetsFixedCounter;
+    }
 }
